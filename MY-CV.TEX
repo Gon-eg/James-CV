@@ -1,0 +1,160 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{parskip}
+\usepackage{multirow}
+\usepackage{tabularx}
+
+% Colors
+\definecolor{primary}{RGB}{0, 82, 155}
+\definecolor{secondary}{RGB}{70, 70, 70}
+\definecolor{accent}{RGB}{30, 144, 255}
+
+% Section formatting
+\titleformat{\section}
+  {\color{primary}\normalfont\Large\bfseries}
+  {}
+  {0em}
+  {}[\titlerule]
+
+\titleformat{\subsection}
+  {\color{secondary}\normalfont\large\bfseries}
+  {}
+  {0em}
+  {}
+
+% Remove section numbers
+\setcounter{secnumdepth}{0}
+
+% Custom commands
+\newcommand{\contact}[3]{\faIcon{#1} \hspace{0.5em} #2 \hspace{1.5em} #3}
+\newcommand{\skillitem}[1]{\item #1}
+\newcommand{\certitem}[2]{\textbf{#1} \\ #2}
+\newcommand{\experience}[4]{\textbf{#1} \\ \textit{#2} \hfill #3 \\ #4}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge \textbf{James Gon Bath}} \\[0.2cm]
+    
+    \contact{phone}{(+211) 986114120 / 916765667}{}
+    \contact{envelope}{\href{mailto:jamesgon824@gmail.com}{jamesgon824@gmail.com}}{}
+    \contact{linkedin}{\href{https://www.linkedin.com/in/james-gon}{linkedin.com/in/james-gon}}{} \\
+    \contact{map-marker-alt}{Juba, South Sudan}{}
+    
+    \vspace{0.3cm}
+    \color{secondary}
+    \textbf{Data-Driven Research Professional} | Environmental Management MSc | Industrial Chemistry BSc (Hons) | Data Analytics Specialist
+\end{center}
+
+% Professional Summary
+\section{Professional Summary}
+Data-informed research professional with a Master's in Environmental Management and Bachelor's in Industrial Chemistry. Skilled in transforming complex datasets into actionable insights using Python, R, SQL, Tableau, and Power BI. Experienced in geospatial analysis (QGIS, ArcGIS), statistical tools (SPSS, JASP), and end-to-end research data management. Combines technical expertise with research methodology to deliver data-grounded solutions for environmental and industrial challenges.
+
+% Technical Skills
+\section{Technical Skills}
+\begin{itemize}[noitemsep, leftmargin=*, label={}]
+    \setlength{\itemsep}{0.2em}
+    
+    \item \textbf{Programming \& Analysis:} Python, R, SQL, C/C++, HTML5, DAX
+    \item \textbf{Data Visualization:} Power BI, Tableau, Excel (Advanced)
+    \item \textbf{Statistical Analysis:} SPSS, PSPP, JASP, GENSTAT, Excel Statistical Tools
+    \item \textbf{Geospatial Analysis:} QGIS, ArcGIS, Spatial Data Processing
+    \item \textbf{Mobile Data Collection:} Kobo Toolbox, EPI Info
+    \item \textbf{Research Methods:} Quantitative \& Qualitative Analysis, Research Design, Data Integrity Protocols
+    \item \textbf{IT \& Systems:} System Maintenance, OS Installation, Technical Support, Cloud Computing Basics
+\end{itemize}
+
+% Work Experience
+\section{Work Experience}
+\experience{Independent IT Technician \& Researcher}{University of Juba}{2019--Present}
+\begin{itemize}[noitemsep, leftmargin=*, topsep=0.2em]
+    \item Developed comprehensive research proposals including objectives, methodologies, and academic support frameworks
+    \item Conducted data analysis using statistical tools to provide insights for decision-making and strategic planning
+    \item Authored high-quality content for reports, assignments, and presentations for diverse audiences
+    \item Installed, configured, and optimized various operating systems ensuring seamless integration
+    \item Provided system maintenance and IT support, troubleshooting issues to minimize downtime
+\end{itemize}
+
+% Education
+\section{Education}
+\begin{itemize}[noitemsep, leftmargin=*, label={}]
+    \setlength{\itemsep}{0.3em}
+    
+    \item \textbf{Master of Science in Environmental Management} \\
+          School of Natural Resource and Environmental Studies, University of Juba \hfill 2023
+    
+    \item \textbf{Bachelor of Science (Honors) in Industrial Chemistry} \\
+          School of Applied \& Industrial Science, University of Juba \hfill 2018
+    
+    \item \textbf{Diploma in Computer Engineering and Maintenance} \\
+          Nairobi Aviation College, Kenya \hfill 2015
+\end{itemize}
+
+% Certifications
+\section{Certifications \& Professional Development}
+
+\subsection{Data Analytics \& Visualization}
+\begin{itemize}[noitemsep, leftmargin=*, topsep=0.2em]
+    \item \textbf{Tableau for Beginners} -- Eduta Incorporation Canada
+    \item \textbf{Power BI Beginner to Pro} -- Pragmatic Works
+    \item \textbf{DAX Functions Workshop} -- Pragmatic Works
+    \item \textbf{Excel for Everyone} -- Hudson Dynamic Lab
+    \item \textbf{Analyzing and Visualizing Data with Power BI} -- DavidsonX/edX
+\end{itemize}
+
+\subsection{AI \& Data Science}
+\begin{itemize}[noitemsep, leftmargin=*, topsep=0.2em]
+    \item \textbf{GenAI Powered Data Analytics Job Simulation} -- Forage
+    \item \textbf{ChatGPT for Data Analytics} -- Maven Analytics LLC
+    \item \textbf{Data Science in Python: Data Prep \& EDA} -- Maven Analytics LLC
+    \item \textbf{AI for Everyone: Master the Basics} -- IBM/edX
+    \item \textbf{Gen AI uses in the research workflow} -- Researcher Academy
+\end{itemize}
+
+\subsection{IT \& Technical Skills}
+\begin{itemize}[noitemsep, leftmargin=*, topsep=0.2em]
+    \item \textbf{Introduction to Cloud Computing} -- IBM/edX
+    \item \textbf{Networking and Storage Essentials} -- IBM/edX
+    \item \textbf{Software, Programming, and Database Basics} -- IBM/edX
+    \item \textbf{Technical Support Basics for Everyone} -- IBM/edX
+    \item \textbf{IT Support Case Studies} -- IBM/edX
+\end{itemize}
+
+\subsection{Business \& Management}
+\begin{itemize}[noitemsep, leftmargin=*, topsep=0.2em]
+    \item \textbf{Professional Diploma in Program Management} -- MTF Institute
+    \item \textbf{Executive Diploma in Leadership and Management} -- MTF Institute
+    \item \textbf{Career Development 4x: Business and Data Analysis Skills} -- FullbridgeX/edX
+\end{itemize}
+
+% References
+\section{References}
+\begin{itemize}[noitemsep, leftmargin=*, label={}]
+    \setlength{\itemsep}{0.5em}
+    
+    \item \textbf{Dr. H. Athiba} \\
+          Associate Professor, School of Natural Resource and Environmental Studies \\
+          University of Juba \\
+          \faIcon{phone} +211921710005 \hspace{1em} 
+          \faIcon{envelope} \href{mailto:athibagote@gmail.com}{athibagote@gmail.com}
+    
+    \item \textbf{Michael Nhial Mabil} \\
+          Registrar, School of Public Service \\
+          University of Juba \\
+          \faIcon{phone} +211915550032 \hspace{1em} 
+          \faIcon{envelope} \href{mailto:mike.mabil2022@gmail.com}{mike.mabil2022@gmail.com}
+    
+    \item \textbf{Nguen Riek Yhat} \\
+          Deputy Director, National Ministry of Peace Building \\
+          \faIcon{envelope} \href{mailto:channyoch@gmail.com}{channyoch@gmail.com} \\
+          \textit{Phone available upon request}
+\end{itemize}
+
+\end{document}
